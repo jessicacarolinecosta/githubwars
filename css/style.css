@@ -1,0 +1,161 @@
+/* Página  resultado */
+
+.container {
+    width: 100vw;
+    min-height: calc(100vh - 53px);
+    padding: 15px;
+}
+
+.jogador {
+    width: calc(50% - 20px);
+    position: relative;
+    float: left;
+    text-align: center;
+    margin: 0 10px;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    border: 1px solid #fff;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    height: 10%;
+    margin: 10px auto;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+span {
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.vs {
+    z-index: 100;
+    margin: 0 auto;
+    position: absolute;
+    width: 30px;
+    left: 74%;
+}
+
+img.vencedor1 {
+    width: 50px;
+    height: 50px;
+    z-index: 100;
+    border: none;
+    position: absolute;
+    right: calc(50% - 100px);
+    bottom: calc(50% - -5px);
+    display: none;
+}
+
+img.vencedor2 {
+    width: 50px;
+    height: 50px;
+    z-index: 100;
+    border: none;
+    position: absolute;
+    right: calc(50% - 100px);
+    bottom: calc(50% - -5px);
+    display: none;
+}
+
+@font-face {
+    font-family: fontzinha;
+    src: url(../font/Permanent.ttf);
+    /*https://www.dafont.com/pt/moms-typewriter.font*/
+}
+
+body {
+    font-family: fontzinha;
+    padding: 0;
+    background-color: #ffb84d;
+    color: #fff2e6;
+    width: 200vw;
+    display: flex;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+    transition: 1.5s;
+    right: 0;
+}
+
+/* Página principal */
+
+header {
+    text-align: center;
+    padding: 30px 0;
+    background-color: #cc7a00;
+    border-radius: 4px;
+}
+
+h1 {
+    letter-spacing: 0px;
+    font-size: 40px;
+    margin: 0px;
+}
+
+h2 {
+    letter-spacing: 0px;
+    font-size: 35px;
+    margin: 0px;
+}
+
+input[type=text] {
+    padding: 6px 10px;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin: 10px 30px;
+}
+
+.button {
+    background-color: #cc7a00;
+    border: none;
+    color: white;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.button:hover {
+    background-color: #e68a00;
+}
+
+.feliz {
+    text-align: center;
+}
+
+.feliz>h1 {
+    display: inline;
+}
+
+.slider {
+    right: 100vw;
+}
+
+img.vencedor1.d-none {
+    display: block;
+}
+
+img.vencedor2.d-none {
+    display: block;
+}
