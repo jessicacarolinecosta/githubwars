@@ -1,4 +1,7 @@
 # GithubWars
+
+https://githubwarsfight.netlify.com/
+
 **Integrantes/Responsabilidades:**
 
  - **Andrey Lemos**: responsável pelas requisições da aplicação
